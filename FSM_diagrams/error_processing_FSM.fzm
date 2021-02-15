@@ -1,4 +1,4 @@
-## File last modified by Fizzim: 16:18:36 on 14/02/21
+## File last modified by Fizzim: 12:28:04 on 15/02/21
 <version>
    14.02.26
 </version>
@@ -610,7 +610,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         register_address_valid = 0
+         register_address_valid == 0
             <status>
             LOCAL
             </status>
@@ -1185,7 +1185,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         register_address_valid = 1
+         register_address_valid == 1
             <status>
             LOCAL
             </status>
@@ -1372,9 +1372,9 @@ fzm_globalTable
             ABS
             </status>
          <value>
-          
+         1
             <status>
-            LOCAL
+            GLOBAL_VAR
             </status>
          </value>
          <vis>
@@ -1559,7 +1559,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         subsystem_enable = 0
+         subsystem_enable == 0
             <status>
             LOCAL
             </status>
@@ -1933,7 +1933,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         subsystem_enable = 1
+         subsystem_enable == 1
             <status>
             LOCAL
             </status>
@@ -1975,10 +1975,10 @@ fzm_globalTable
             </status>
          </resetval>
          <x2Obj>
-         -12
+         -35
          </x2Obj>
          <y2Obj>
-         7
+         -15
          </y2Obj>
          <page>
          1
@@ -2120,7 +2120,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         register_address_valid = 0
+         register_address_valid == 0
             <status>
             LOCAL
             </status>
@@ -2494,7 +2494,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         register_address_valid = 1
+         register_address_valid == 1
             <status>
             LOCAL
             </status>
@@ -2639,7 +2639,7 @@ Author  :  Jim Herd
    </page>
 </textObj>
 <textObj>
-[=> set_nFault_z]
+[=> set_nFault_z ]
    <x>
    670
    </x>
@@ -2651,7 +2651,7 @@ Author  :  Jim Herd
    </page>
 </textObj>
 <textObj>
-[=> set_nFault_value]
+[=> set_nFault_value ]
    <x>
    372
    </x>

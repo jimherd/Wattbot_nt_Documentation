@@ -1,4 +1,4 @@
-## File last modified by Fizzim: 16:24:32 on 14/02/21
+## File last modified by Fizzim: 12:13:24 on 15/02/21
 <version>
    14.02.26
 </version>
@@ -516,7 +516,7 @@ fzm_globalTable
          0
          </x2Obj>
          <y2Obj>
-         0
+         24
          </y2Obj>
          <page>
          1
@@ -599,7 +599,7 @@ fzm_globalTable
          0
          </x2Obj>
          <y2Obj>
-         0
+         24
          </y2Obj>
          <page>
          1
@@ -693,7 +693,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         condition
+         condition == 0
             <status>
             LOCAL
             </status>
@@ -735,10 +735,10 @@ fzm_globalTable
             </status>
          </resetval>
          <x2Obj>
-         17
+         32
          </x2Obj>
          <y2Obj>
-         -11
+         -7
          </y2Obj>
          <page>
          1
@@ -853,7 +853,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         condition
+         condition == 1
             <status>
             LOCAL
             </status>
@@ -895,10 +895,10 @@ fzm_globalTable
             </status>
          </resetval>
          <x2Obj>
-         43
+         67
          </x2Obj>
          <y2Obj>
-         3
+         5
          </y2Obj>
          <page>
          1
@@ -1025,12 +1025,12 @@ Author  :  Jim Herd
    </page>
 </textObj>
 <textObj>
-[=> output]
+[=> output = 1]
    <x>
-   512
+   511
    </x>
    <y>
-   367
+   372
    </y>
    <page>
    1

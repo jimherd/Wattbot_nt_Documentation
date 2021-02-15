@@ -1,4 +1,4 @@
-## File last modified by Fizzim: 12:24:15 on 14/02/21
+## File last modified by Fizzim: 12:29:06 on 15/02/21
 <version>
    14.02.26
 </version>
@@ -859,7 +859,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         pwm_enable = 0
+         pwm_enable == 0
             <status>
             LOCAL
             </status>
@@ -1019,7 +1019,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         pwm_enable = 1
+         pwm_enable == 1
             <status>
             LOCAL
             </status>
@@ -1061,10 +1061,10 @@ fzm_globalTable
             </status>
          </resetval>
          <x2Obj>
-         26
+         28
          </x2Obj>
          <y2Obj>
-         8
+         7
          </y2Obj>
          <page>
          1
@@ -1393,7 +1393,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         (T_on_zero = 1) and (pwm_enable = 1)
+         (T_on_zero == 1) and (pwm_enable == 1)
             <status>
             LOCAL
             </status>
@@ -1435,10 +1435,10 @@ fzm_globalTable
             </status>
          </resetval>
          <x2Obj>
-         -3
+         -26
          </x2Obj>
          <y2Obj>
-         -6
+         -10
          </y2Obj>
          <page>
          1
@@ -1752,7 +1752,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         pwm_enable = 0
+         pwm_enable == 0
             <status>
             LOCAL
             </status>
@@ -1794,10 +1794,10 @@ fzm_globalTable
             </status>
          </resetval>
          <x2Obj>
-         82
+         95
          </x2Obj>
          <y2Obj>
-         29
+         32
          </y2Obj>
          <page>
          1
@@ -2099,7 +2099,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         ((pwm_enable = 1) and (T_period_zero = 1))
+         ((pwm_enable == 1) and (T_period_zero == 1))
             <status>
             LOCAL
             </status>
@@ -2141,10 +2141,10 @@ fzm_globalTable
             </status>
          </resetval>
          <x2Obj>
-         164
+         153
          </x2Obj>
          <y2Obj>
-         -222
+         -239
          </y2Obj>
          <page>
          1
@@ -2261,10 +2261,10 @@ fzm_globalTable
 <textObj>
 [=> dec_T_period]
    <x>
-   551
+   546
    </x>
    <y>
-   823
+   809
    </y>
    <page>
    1
@@ -2868,7 +2868,7 @@ Author : Jim Herd
             ABS
             </status>
          <value>
-         T_on_MAX =1
+         T_on_MAX ==1
             <status>
             LOCAL
             </status>
@@ -3055,7 +3055,7 @@ Author : Jim Herd
             ABS
             </status>
          <value>
-         T_on_MIN = 1
+         T_on_MIN == 1
             <status>
             LOCAL
             </status>
@@ -3097,10 +3097,10 @@ Author : Jim Herd
             </status>
          </resetval>
          <x2Obj>
-         43
+         36
          </x2Obj>
          <y2Obj>
-         6
+         5
          </y2Obj>
          <page>
          1
@@ -3242,7 +3242,7 @@ Author : Jim Herd
             ABS
             </status>
          <value>
-         ((pwm_enable = 1) and (T_period_zero = 1))
+         ((pwm_enable == 1) and (T_period_zero == 1))
             <status>
             LOCAL
             </status>
@@ -3429,7 +3429,7 @@ Author : Jim Herd
             ABS
             </status>
          <value>
-         ((pwm_enable = 1) and (T_period_zero =1))
+         ((pwm_enable == 1) and (T_period_zero ==1))
             <status>
             LOCAL
             </status>
@@ -3471,7 +3471,7 @@ Author : Jim Herd
             </status>
          </resetval>
          <x2Obj>
-         -153
+         -146
          </x2Obj>
          <y2Obj>
          215
@@ -3555,10 +3555,10 @@ Author : Jim Herd
 <textObj>
 [=> pwm]
    <x>
-   209
+   208
    </x>
    <y>
-   729
+   731
    </y>
    <page>
    1
@@ -3567,10 +3567,10 @@ Author : Jim Herd
 <textObj>
 [=> dec_T_period]
    <x>
-   167
+   169
    </x>
    <y>
-   753
+   749
    </y>
    <page>
    1
@@ -3637,9 +3637,9 @@ Notes
    </page>
 </textObj>
 <textObj>
-(pwm_enable = 1)  or
+(pwm_enable == 1)  or
    <x>
-   114
+   113
    </x>
    <y>
    605
@@ -3649,12 +3649,12 @@ Notes
    </page>
 </textObj>
 <textObj>
-(pwm_enable = 1) or
+(pwm_enable == 1) or
    <x>
-   694
+   686
    </x>
    <y>
-   184
+   171
    </y>
    <page>
    1
@@ -3673,7 +3673,7 @@ Notes
    </page>
 </textObj>
 <textObj>
-[pwm_enable = 1) or
+[pwm_enable == 1) or
    <x>
    200
    </x>
@@ -3685,7 +3685,7 @@ Notes
    </page>
 </textObj>
 <textObj>
-*** Moore outputs shown as   [=> name]
+*** Moore outputs shown as   [=> name] .  Output implies signal is set to 1
    <x>
    208
    </x>

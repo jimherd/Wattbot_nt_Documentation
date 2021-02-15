@@ -1,4 +1,4 @@
-## File last modified by Fizzim: 12:09:35 on 15/02/21
+## File last modified by Fizzim: 12:26:25 on 15/02/21
 <version>
    14.02.26
 </version>
@@ -2369,7 +2369,7 @@ Author  :  Jim Herd
 </transition>
 ## END STATE TRANSITION OBJECT
 <textObj>
-[=> inc_counter = 1]
+[=> inc_counter ]
    <x>
    649
    </x>
@@ -2381,7 +2381,7 @@ Author  :  Jim Herd
    </page>
 </textObj>
 <textObj>
-[=> dec_counter = 1]
+[=> dec_counter ]
    <x>
    344
    </x>

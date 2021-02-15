@@ -1,4 +1,4 @@
-## File last modified by Fizzim: 12:00:36 on 12/02/21
+## File last modified by Fizzim: 12:34:20 on 15/02/21
 <version>
    14.02.26
 </version>
@@ -693,7 +693,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         speed_measure_enable = 0
+         speed_measure_enable == 0
             <status>
             LOCAL
             </status>
@@ -735,10 +735,10 @@ fzm_globalTable
             </status>
          </resetval>
          <x2Obj>
-         95
+         105
          </x2Obj>
          <y2Obj>
-         26
+         27
          </y2Obj>
          <page>
          1
@@ -936,7 +936,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         speed_measure_enable = 1
+         speed_measure_enable == 1
             <status>
             LOCAL
             </status>
@@ -1060,7 +1060,7 @@ fzm_globalTable
 </transition>
 ## END STATE TRANSITION OBJECT
 <textObj>
-[=> clear_all]
+[=> clear_all ]
    <x>
    693
    </x>
@@ -1072,7 +1072,7 @@ fzm_globalTable
    </page>
 </textObj>
 <textObj>
-[=> inc_temp_speed_counter]
+[=> inc_temp_speed_counter ]
    <x>
    478
    </x>
@@ -1334,7 +1334,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         QE_A = 0
+         QE_A == 0
             <status>
             LOCAL
             </status>
@@ -1379,7 +1379,7 @@ fzm_globalTable
          2
          </x2Obj>
          <y2Obj>
-         38
+         36
          </y2Obj>
          <page>
          1
@@ -1577,7 +1577,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         QE_A = 1
+         QE_A == 1
             <status>
             LOCAL
             </status>
@@ -1619,10 +1619,10 @@ fzm_globalTable
             </status>
          </resetval>
          <x2Obj>
-         35
+         38
          </x2Obj>
          <y2Obj>
-         22
+         19
          </y2Obj>
          <page>
          1
@@ -2200,7 +2200,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         QE_A = 0
+         QE_A == 0
             <status>
             LOCAL
             </status>
@@ -2387,7 +2387,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         count_overflow = 1
+         count_overflow == 1
             <status>
             LOCAL
             </status>
@@ -2574,7 +2574,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         count_overflow = 0
+         count_overflow == 0
             <status>
             LOCAL
             </status>
@@ -2616,10 +2616,10 @@ fzm_globalTable
             </status>
          </resetval>
          <x2Obj>
-         68
+         73
          </x2Obj>
          <y2Obj>
-         -13
+         -15
          </y2Obj>
          <page>
          1
@@ -2761,7 +2761,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         QE_A = 1
+         QE_A == 1
             <status>
             LOCAL
             </status>
@@ -2803,10 +2803,10 @@ fzm_globalTable
             </status>
          </resetval>
          <x2Obj>
-         41
+         45
          </x2Obj>
          <y2Obj>
-         3
+         1
          </y2Obj>
          <page>
          1
@@ -3280,7 +3280,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         speed_filter_enable = 1
+         speed_filter_enable == 1
             <status>
             LOCAL
             </status>
@@ -3654,7 +3654,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         samples_complete = 1
+         samples_complete == 1
             <status>
             LOCAL
             </status>
@@ -4402,7 +4402,7 @@ fzm_globalTable
             ABS
             </status>
          <value>
-         speed_filter_enable = 0
+         speed_filter_enable == 0
             <status>
             LOCAL
             </status>
@@ -4526,7 +4526,7 @@ fzm_globalTable
 </transition>
 ## END STATE TRANSITION OBJECT
 <textObj>
-[=> dec_sample_count]
+[=> dec_sample_count ]
    <x>
    417
    </x>
@@ -4538,7 +4538,7 @@ fzm_globalTable
    </page>
 </textObj>
 <textObj>
-[=> do_average]
+[=> do_average ]
    <x>
    529
    </x>
