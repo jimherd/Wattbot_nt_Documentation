@@ -1,4 +1,4 @@
-## File last modified by Fizzim: 12:13:24 on 15/02/21
+## File last modified by Fizzim: 14:26:33 on 15/02/21
 <version>
    14.02.26
 </version>
@@ -1025,7 +1025,7 @@ Author  :  Jim Herd
    </page>
 </textObj>
 <textObj>
-[=> output = 1]
+[=> output ]
    <x>
    511
    </x>
