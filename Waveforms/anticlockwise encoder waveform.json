@@ -1,0 +1,12 @@
+{signal: [
+  {name: "A", wave:      "d0...1...0." },
+  {name: "B", wave:      "d0.1...0..." },
+  {name: "Grey_code_AB", wave: "d3.3.3.3.d.", data: "00 01 11 10"},
+  {name: "Phase", wave: "d4.4.4.4.d.", data: "0 1 2 3"}
+],
+  head: {
+    text:"Anticlockwise encoder waveform"},
+ foot: {
+     tock:0
+ }
+}
