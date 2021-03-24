@@ -1,0 +1,17 @@
+{signal: [
+  {name: "Clock",            wave: "P................."},
+  {name: "handshake_1",      wave: "01...........0....", node: ".a...........c..."},
+  {name: "handshake_2",      wave: "0....1..........0.", node: ".....b..........d"},
+  {                                                      node: ".e...........f..."},
+  {                                                      node: ".....g..........h"},
+  {                                                      node: ".i...j.......k..l"}, 
+  ],
+ edge: [ "a~>b", "b~>c", "c~>d"  , "a-e" , "c-f" , "e<->f 240nS", "b-g","d-h", "g<->h 220nS",
+         "a-i", "b-j", "i<->j 80nS", "c-k", "d-l", "k<->l 60nS"
+  ],
+ head: {
+    text:"Internal 32-bit bus wriie to register transaction"},
+ foot: { 
+     tock:0
+ }
+}

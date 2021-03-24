@@ -1,0 +1,16 @@
+{signal: [
+  {name: "Clock",            wave: "P.................."},
+  {name: "handshake_1",      wave: "0.......1...0......", node: "........a...c...."},
+  {name: "handshake_2",      wave: "z........1...0.....", node: ".........b...d..."},
+  {name: "Subsystem_enable", wave: "0.......1.........."},
+  {name: "RW",               wave: "x=................."},
+  {name: "data",             wave: "x=................."}
+  ],
+ edge: [ "a~>b", "b~>c", "c~>d"
+  ],
+ head: {
+    text:"Internal 32-bit bus wriie to register transaction"},
+ foot: {
+     tock:0
+ }
+}
